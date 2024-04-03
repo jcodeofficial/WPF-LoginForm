@@ -1,0 +1,50 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace String_Chars
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //int x;
+            //int y;
+            //int z;
+
+            int x = 10,
+                y = 20,
+                z = 30;
+
+
+            string textAge = -23;
+            int age          =Convert.ToInt32""textAge; 
+            Console.WriteLine(age);
+          
+
+            string textbigNumber = -900000000L;
+            long bigNumber Convert.ToInt64(bigNumber);
+            Console.WriteLine(bigNumber);
+          
+
+            string textnegative = -55.2D;
+            double negative = Convert.ToDouble(negative);
+            Console.WriteLine(negative);
+  
+
+            string textprecision = 5.000001F;
+            float precision = Convert.ToSingle(precision);
+            Console.WriteLine(precision);
+          
+
+            string textmoney = 14.99M;
+            decimal money = Convert.ToDecimal(money);
+            Console.WriteLine(money);
+            
+
+            Console.ReadLine();
+        }
+    }
+}

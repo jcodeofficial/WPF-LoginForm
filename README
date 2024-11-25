@@ -1,0 +1,11 @@
+WPF Login Form
+
+Overview
+
+The WPF Login Form is a Windows Presentation Foundation (WPF) application developed in C#. It provides a modern and secure user authentication interface, demonstrating the implementation of the Model-View-ViewModel (MVVM) pattern and integration with a SQL Server database for user credential management.
+
+Features
+-User Authentication: Secure login functionality with validation against stored user credentials.
+-MVVM Architecture: Separation of concerns through the MVVM design pattern, enhancing maintainability and testability.
+-Database Integration: Utilizes SQL Server for storing and retrieving user information.
+-Modern UI Design: Clean and intuitive user interface built with WPF, providing a responsive user experience.
